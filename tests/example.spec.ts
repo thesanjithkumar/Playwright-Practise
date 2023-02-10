@@ -26,7 +26,7 @@ test("book my show ticket booking", async ({ page }) => {
   await page.getByRole('listitem').filter({ hasText: 'Abhinay Theatre 4K A/C: Gandhinagar INFO 04:30 PM 07:30 PM 10:00 PM Cancellation' }).getByRole('link', { name: '07:30 PM' }).click();
   await page.locator('#btnPopupAccept').click()
   await page.getByText(/Select Seats/).click()
-  await page.getByRole('row', { name: 'N 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24' }).getByRole('link', { name: '8', exact: true }).click();
+  await page.getByRole('row', { name: 'N 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24' }).getByRole('link', { name: '21', exact: true }).click();
   await page.getByRole('link', { name: 'Pay Rs.200.00' }).click();
   await page.waitForTimeout(5000);
   await page.screenshot({ path: 'page.png' });
