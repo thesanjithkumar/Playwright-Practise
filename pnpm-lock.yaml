@@ -1,0 +1,30 @@
+lockfileVersion: '6.0'
+
+devDependencies:
+  '@playwright/test':
+    specifier: ^1.30.0
+    version: 1.30.0
+  '@types/node':
+    specifier: ^18.15.11
+    version: 18.15.11
+
+packages:
+
+  /@playwright/test@1.30.0:
+    resolution: {integrity: sha512-SVxkQw1xvn/Wk/EvBnqWIq6NLo1AppwbYOjNLmyU0R1RoQ3rLEBtmjTnElcnz8VEtn11fptj1ECxK0tgURhajw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.15.11
+      playwright-core: 1.30.0
+    dev: true
+
+  /@types/node@18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
+    dev: true
+
+  /playwright-core@1.30.0:
+    resolution: {integrity: sha512-7AnRmTCf+GVYhHbLJsGUtskWTE33SwMZkybJ0v6rqR1boxq2x36U7p1vDRV7HO2IwTZgmycracLxPEJI49wu4g==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
